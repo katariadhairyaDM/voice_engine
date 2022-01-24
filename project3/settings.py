@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-yr9ehpf$g%xskf(_g!e(ad1_%4swbc8rz+adxkk+wh5t=8v0g1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'voice-engine.herokuapp.com']
 
 
 # Application definition
