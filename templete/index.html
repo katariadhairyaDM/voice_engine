@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Trial</title>
+
+    <link rel="stylesheet" href="{% static './style.css'%}">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="column1">
+            <div class="form-group">
+                <!-- <p>What is your favorite feature of freeCodeCamp?</p> -->
+                <select name="feature" id="dropdown1">
+                    <option disabled selected value>Select Your Account name and ID</option>
+                    <option value="accountID">Moj-App Campaigns(300301992)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <!-- <p>What is your favorite feature of freeCodeCamp?</p> -->
+                <select name="feature" id="dropdown2">
+                    <option disabled selected value>Select Result Metric</option>
+                    <option value="challenges">App Installs</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <!-- <p>What is your favorite feature of freeCodeCamp?</p> -->
+                <select name="feature" id="dropdown3">
+                    <option disabled selected value>Select Cost per Result Metric</option>
+                    <option value="challenges">Cost Per App Installs</option>
+                </select>
+            </div>
+            <!-- <div class="form-group">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select name="feature" id="dropdown4">
+                    <option disabled selected value>Select Email</option>
+                    <option value="challenges">EMAIL**</option>
+                </select>
+            </div> -->
+        </div>
+        <div class="column2">
+            <div class="text-box" style="height: 100%; display: flex; flex-direction: column; ">
+                <div class="text-box scroll chat-box" >
+                    
+                    
+                </div>
+                <div class="mt-4" style="    display: flex;
+                align-items: center;
+                justify-content: center; align-items: center;
+                min-height: 51px; margin-bottom: 4px;">
+                    <!-- <span id="final" class="text-dark scroll" style="overflow-y: scroll;"></span> -->
+                    <button class="btn" id="start" ><i class="material-icons"
+                            style="font-size:43px; "></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{% static './script_chart.js' %}"></script>
+<script src="{% static './script3.js' %}"></script>
+</html>
